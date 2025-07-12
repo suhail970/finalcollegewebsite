@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="topbox">
+            <div class="topleft">
+                <a href="index.html"><img src="hitlogo.png" alt="logo"></a>
+                <h1>Hindusthan Institute Of Technology</h1>
+            </div>
+            <ul class="topright">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Admission</a></li>
+                <li><a href="">Academics</a></li>
+                <li><a href="">NAAC</a></li>
+                <li><a href="">Extras</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="cenbox">
+            <form class="innbox" method="post" action="storage.php">
+                <div class="innleft">
+                    <div class="boxx">
+                        <h1>Student Details</h1>
+                        <input type="text" placeholder="Registration Number" class="inp reg" id="reg" name="reg" required>
+                        <div class="forname">
+                            <input type="text" placeholder="Firat Name" class="inp" id="fname" name="fname">
+                            <input type="text" placeholder="Laste Name" class="inp" id="lname" name="lname" required>
+                        </div>
+                        <div class="date1">
+                            <label for="">Date</label>
+                            <input type="date" name="" id="date" required>
+                        </div>
+                        <div class="gender">
+                            <label for="">Gender</label>
+                            <div class="bullet">
+                                <label for=""><input type="radio" name="gender" value="Male"> Male</label>
+                                <label for=""><input type="radio" name="gender" value="Female"> Female</label>
+                            </div>
+                        </div>
+                        <div class="blood">
+                            <label for="">Blood Group</label>
+                            <select name="bloodv" id="bloodv" >
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-</option>
+                                <option value="AB-">AB-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                                <option value="none">none</option>
+                            </select>
+                        </div>
+
+                        <div class="branch">
+                            <label for="">Select Branch</label>
+                            <div class="catagory">
+                                <select name="dep" id="" required>
+                                    <option value="CSE">CSE</option>
+                                    <option value="AIDS">AIDS</option>
+                                    <option value="IT">IT</option>
+                                    <option value="AERO">AERO</option>
+                                    <option value="ECE">ECE</option>
+                                    <option value="EEE">EEE</option>
+                                </select>
+                                <div class="photo">
+                                    <label for="">Upload Your Photo</label>
+                                    <input type="file">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innright">
+                    <div class="boxxx">
+                        <h1>Contact Details</h1>
+                        <input type="number" name="ph" id="ph" placeholder="Phone Number" class="inpu" required>
+                        <input type="text" name="gm" id="gm" placeholder="Your Gmail" class="inpu" >
+                        <input type="text" name="parentname" id="" placeholder="Father or Mother Name" class="inpu">
+                        <input type="number" name="parentnum" id="" placeholder="Father or Mother Mobile Number" class="inpu">
+                        <input type="text" name="country" id="cou" placeholder="Country" class="inpu" required>
+                        <input type="text" name="city" id="cit" placeholder="City" class="inpu" required>
+                        <div class="inpu addres">
+                            <label for="">Address :</label>
+                            <textarea name="address" id="add" cols="35" rows="7" required></textarea>
+                        </div>
+                        <div class=" inpu bus">
+                            <input type="radio" name="cbus" value="Dayscoler">
+                            <label for=""> Dayscoler</label>
+                            <input type="radio" name="cbus" value="Hosteller">
+                            <label for=""> Hosteller</label>
+                        </div>
+                        <div class="butt">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

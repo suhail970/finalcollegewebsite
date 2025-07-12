@@ -1,0 +1,509 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.box{
+    width: 100%;
+    height: 120vh;
+    background: #eba986;
+    background: #f5dd7b;
+}
+
+.topbox{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    padding: 5px;
+    position: sticky;
+    top:0;
+    
+}
+
+.topleft{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+.topleft img{
+    width: 100px;
+}
+
+
+.topright{
+    flex: 2;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.topright li{
+    list-style:none;
+}
+.topright a{
+    text-decoration: none;
+    padding: 3px;
+    border-bottom: 2px solid;
+    color: rgb(255, 60, 0);
+    transition: 0.5s;
+}
+
+
+.topextra{
+    margin: 5px 0px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(251, 255, 27);
+    font-weight: 700;
+}
+
+.centerbox{
+    width: 100%;
+    height: 100%;
+    background: url("college.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.centerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbox{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.innerbox a{
+    padding: 10px;
+    background-color: rgb(200, 255, 0);
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition-delay: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.bankai{
+    position: sticky;
+    bottom: 3rem;
+    align-self: flex-end;
+}
+
+.box1{
+    width: 100%;
+    height: 150px;
+}
+.innerbox1{
+    margin: 10px 0px;
+    background-color: rgb(255, 187, 99);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.innerbox1 div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fde994;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+.cenbox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cenbox .innbox{
+    width: 1200px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+
+
+.innbox .innleft{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+.innleft label{
+    font-weight: 600;
+}
+
+
+.innleft .boxx{
+    height: 500px;
+    width: 500px;
+    
+}
+
+.forname{
+    display: flex;
+    justify-content:space-between;
+}
+.forname input{
+    width: 200px;
+}
+
+
+.boxx h1{
+    color: rgb(255, 187, 0);
+    padding: 10px 0px;
+    padding-bottom: 13px;
+}
+
+.boxx .inp{
+    padding: 8px;
+    border: 0px;
+    border-bottom: 1px solid;
+}
+
+.reg{
+    width:97%;
+}
+
+.date1{
+    margin: 14px 0px;
+}
+
+.gender{
+    margin: 5px 0px;
+    margin-top: 15px;
+}
+.boxx input{
+    margin: 7px 0px;
+}
+
+.boxx .blood,.branch,.photo{
+    margin: 25px 0px;
+} 
+
+
+
+
+
+
+.innbox .innright{
+    flex: 1;
+    background:rgba(255, 157, 10, 0.959);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 15px 0px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.innright .boxxx{
+    height: 500px;
+    width: 500px;
+    background:rgba(255, 157, 10, 0.959);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.boxxx h1{
+    padding-bottom: 13px;
+}
+
+
+.boxxx .inpu{
+    background:rgba(255, 157, 10, 0.959);
+    padding: 8px;
+    border: 0px;
+    border-bottom: 1px solid white;  
+    margin-top: 7px;
+    
+}
+.butt{
+    
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.butt button{
+    padding: 9px 25px;
+    border: 0px;
+    border-radius: 15px;
+    height: 33px;
+    background-color: white;
+}
+
+
+
+
+
+.topright a:hover{
+    font-size: larger;
+}
+
+.innerbox a:hover{
+    border-radius: 17px;
+    padding: 16px;
+}
+
+.innright input::placeholder{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+
+
+.ourdep{
+    width: 100%;
+    background-color: #ffa16e;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.deptitle{
+    display: flex;
+    justify-content: center;
+}
+
+.deptitle h1{
+    font-size:50px;
+    font-family:cursive;
+    padding: 20px 0;
+}
+
+.depbox{
+    width: 100%;
+    background-color: #fde994;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 90px 0;
+}
+
+.depimg{
+    width: 300px;
+    background-color: rgb(255, 171, 102);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+.depimg h2{
+    text-align: center;
+    padding: 5px;
+}
+.depimg img{
+    border-radius: 15px 15px 10px 10px;
+    width: 100%;
+}
+
+
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f5dd7b;
+}
+.innerdet{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    gap: 20px;
+}
+.detleft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+.detleft .titleinnovative{
+    color: rgb(226, 74, 28);
+}
+.detleft .titlepara{
+    text-align: justify;
+}
+.detright{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.detright img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.break{
+    width: 100%;
+    height: 50px;
+    background-color: #ffa16e;
+}
+
+
+
+
+.depimg:hover{
+    box-shadow: 0 14px 18px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+@keyframes appear1{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes appear2{
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.centerbox,.innbox{
+    animation: appear 0.5s linear;
+}
+
+.depimg{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+.details{
+    animation: appear1 linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+.detail11{
+    animation: appear2 linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+.ags1{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+
+@media (max-width:1100px){
+    p{
+        font-size: 1.5em;
+    }
+    .centerbox{
+        height: 40%;
+    }
+    .box{
+        height: 180vh;
+    }
+    .topbox{
+        height: 140px;
+        flex-direction: column;
+    }
+    .topleft h1{
+        font-size:1.6em;
+    }
+    .topright a{
+        font-size: 1.4em;
+    }
+
+    .cenbox{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+    }
+    .innbox{
+        min-width: 90px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column !important;
+        padding: 30px;
+    }
+    .innerbox a{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .butt{
+        justify-content: center;
+    }
+    .innleft,.innright{
+        padding: 5px;
+    }
+
+    .box1{
+        height: auto;
+    }
+    .innerbox1 div{
+        margin: 5px 0px;
+    }
+    .innerdet{
+        flex-direction: column;
+        width: 95%;
+        gap: 20px;
+    }
+    .detleft h1{
+        font-size: 2.7em;
+    }
+}
